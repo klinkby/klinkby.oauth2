@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>Klinkby.OAuth2</id>
-    <version>1.0.0.0</version>
+    <version>1.0.1.0</version>
     <title>Klinkby.OAuth2</title>
     <authors>Mads Breusch Klinkby</authors>
     <summary>Simple OAuth2 client for Facebook, Google and Live</summary>
@@ -12,8 +12,8 @@
     <tags>klinkby oauth2 google facebook live</tags>
   </metadata>
   <files>
-    <file src="bin\release\klinkby.OAuth2.dll" target="lib\net451\klinkby.OAuth2.dll"/>
-    <file src="bin\release\klinkby.OAuth2.pdb" target="lib\net451\klinkby.OAuth2.pdb"/>
-    <file src="bin\release\klinkby.OAuth2.xml" target="lib\net451\klinkby.OAuth2.xml"/>
+    <file src="bin\release\klinkby.OAuth2.dll" target="lib\net452\klinkby.OAuth2.dll"/>
+    <file src="bin\release\klinkby.OAuth2.pdb" target="lib\net452\klinkby.OAuth2.pdb"/>
+    <file src="bin\release\klinkby.OAuth2.xml" target="lib\net452\klinkby.OAuth2.xml"/>
   </files>
 </package>
