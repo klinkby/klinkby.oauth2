@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>10</LangVersion>
+        <Nullable>annotations</Nullable>
+        <RootNamespace>Klinkby.OAuth2</RootNamespace>
+        <AssemblyDescription>Simple OAuth2 client for Facebook, Google and Live</AssemblyDescription>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageVersion>2.0.1</PackageVersion>
+        <AssemblyName>Klinkby.OAuth2</AssemblyName>
+        <AssemblyTitle>Klinkby.OAuth2</AssemblyTitle>
+        <PackageId>Klinkby.OAuth2</PackageId>
+        <Authors>@klinkby</Authors>
+        <RepositoryUrl>https://github.com/klinkby/klinkby.oauth2</RepositoryUrl>
+        <PackageIcon>package-icon.png</PackageIcon>
+        <PackageTags>klinkby oauth2 google facebook live</PackageTags>
+        <Description>Simple OAuth2 client for Facebook, Google and Live</Description>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../../LICENSE.txt" Pack="true" PackagePath=""/>
+        <None Include="../../README.md" Pack="true" PackagePath=""/>
+        <None Include="../../package-icon.png" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
+    <PropertyGroup>
+        <!--
+        https://devblogs.microsoft.com/nuget/enable-repeatable-package-restores-using-a-lock-file/ -->
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    </PropertyGroup>
+</Project>
